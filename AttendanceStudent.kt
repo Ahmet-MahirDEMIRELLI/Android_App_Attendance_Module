@@ -58,8 +58,7 @@ class AttendanceStudent : AppCompatActivity() {
     private lateinit var currCourseGroup: ArrayList<String>
     private var index: Int = 0
     private var wifiName: String? = ""
-    // private var validWifiName = "\"EDUROAM\""  // YTU Computer Engineering Department Wifi Name
-    private var validWifiName = "\"FiberHGW_ZTZZE6_2.4GHz\""
+    private var validWifiName = "\"EDUROAM\""  // YTU Computer Engineering Department Wifi Name
     private var stdId: String = ""
     private var ATTENDANCE_PERMISSION_THRESHOLD_MINUTES:Long = 10
     private lateinit var fusedLocationClient: FusedLocationProviderClient
@@ -361,15 +360,10 @@ class AttendanceStudent : AppCompatActivity() {
         val lat = location.latitude
         val lng = location.longitude
 
-//       val topLeft = LatLng(41.028514, 28.890980)          YTU Computer Engineering Department Location
-//       val topRight = LatLng(41.028336, 28.891222)
-//       val bottomRight = LatLng(41.028018, 28.890638)
-//       val bottomLeft = LatLng(41.028183, 28.890285)
-
-        val topLeft = LatLng(41.034078, 28.892249)
-        val topRight = LatLng(41.034108, 28.892748)
-        val bottomRight = LatLng(41.033508, 28.892984)
-        val bottomLeft = LatLng(41.033645, 28.8924185)
+       val topLeft = LatLng(41.028514, 28.890980)          YTU Computer Engineering Department Location
+       val topRight = LatLng(41.028336, 28.891222)
+       val bottomRight = LatLng(41.028018, 28.890638)
+       val bottomLeft = LatLng(41.028183, 28.890285)
 
         val minLat = minOf(topLeft.latitude, topRight.latitude, bottomRight.latitude, bottomLeft.latitude)
         val maxLat = maxOf(topLeft.latitude, topRight.latitude, bottomRight.latitude, bottomLeft.latitude)
