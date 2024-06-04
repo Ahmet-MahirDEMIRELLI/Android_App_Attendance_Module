@@ -6,6 +6,7 @@ English:
     How it works: 
 
 Türkçe:
+    
     Bu yoklama modülü "Mobil Programlamaya Giriş" Dönem Projesi için yapılmışyıt
 
     Nasıl Çalışıyor:
