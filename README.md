@@ -1,4 +1,7 @@
 # Android_App_Attendance_Module
+
+Ahmet Mahir Demirelli - 03.06.2024
+
 English:
 
     This attendance module is done for "Introduction to Mobile Programming" Semester Project
@@ -11,4 +14,4 @@ Türkçe:
 
     Nasıl Çalışıyor:
   
-03.06.2024
+
