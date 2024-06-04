@@ -6,12 +6,16 @@ English:
 
     This attendance module is done for "Introduction to Mobile Programming" Semester Project
 
-    How it works: 
+    Firebase and location is used
+
+    How it works: https://youtu.be/0-qMjioHv2g
 
 Türkçe:
     
-    Bu yoklama modülü "Mobil Programlamaya Giriş" Dönem Projesi için yapılmışyıt
+    Bu yoklama modülü "Mobil Programlamaya Giriş" Dönem Projesi için yapılmıştır
 
-    Nasıl Çalışıyor:
+    Firebase ve konum bilgisi kullanıldı
+
+    Nasıl Çalışıyor: https://youtu.be/SnGf2aCe_cM
   
 
