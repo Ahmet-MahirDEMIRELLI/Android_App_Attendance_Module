@@ -1,5 +1,3 @@
-package com.huseyinemreseyrek.courseassistantapp
-
 import android.R
 import android.content.ContentValues
 import android.content.pm.PackageManager
